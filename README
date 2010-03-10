@@ -1,0 +1,8 @@
+This program does essentially nothing, and if it successfuly does nothing, that's good!
+
+It was made to test two things:
+
+One, proper linking of the SDL libraries within Visual C++ 2008.  Compiling with #include <SDL.h> is a success on this point.
+Two, proper finding and utilizing the SDL.dll in program execution.  The two function calls to initialize everthing and then quit test this condition.
+
+An error-free compile and execution indicate both of these work, and the SDL libraries are ready for use.
